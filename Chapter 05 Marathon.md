@@ -1,4 +1,4 @@
-# 🛒 Smart Shopping Assistant – Mini Console Project
+# Smart Shopping Assistant – Mini Console Project
 
 You’ve just completed **Chapter 5**, where we explored powerful tools like higher-order functions and function composition in Haskell:
 
@@ -15,7 +15,7 @@ This marathon is about designing a **command-line Shopping Assistant** app that 
 
 ---
 
-## ✅ Objectives
+## Objectives
 
 - **Use `filter` and `any`** to:
   - Show all groceries
@@ -37,7 +37,7 @@ This marathon is about designing a **command-line Shopping Assistant** app that 
 
 ---
 
-## 🧪 Deliverables
+## Deliverables
 
 Build a console app that:
 
@@ -51,7 +51,7 @@ Build a console app that:
 
 ---
 
-## 🚀 Bonus
+## Bonus
 
 - Tag items with discounts using `map` and lambdas
 - Build a transformation pipeline using only composition
@@ -59,7 +59,7 @@ Build a console app that:
 
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 - Build and test with **GHCi**
 - Package with **Stack** or **Cabal**

@@ -1,4 +1,4 @@
-# 📚 Library Book Manager – Mini Console Project
+# Library Book Manager – Mini Console Project
 
 You’ve just completed **Chapter 4**, where you explored the power of *pattern matching* in Haskell:
 
@@ -13,7 +13,7 @@ This mini-marathon challenges you to build a simple **command-line library book 
 
 ---
 
-### 🎯 Objectives
+### Objectives
 
 * **Use pattern matching in function definitions** – process user actions (`CheckIn`, `CheckOut`, `Search`) with clarity.
 * **Design expressive data types** – model books using **records**, tuples, or custom types.
@@ -25,7 +25,7 @@ This mini-marathon challenges you to build a simple **command-line library book 
 
 ---
 
-### 🧪 What to Deliver
+### What to Deliver
 
 A runnable console app that:
 
@@ -37,7 +37,7 @@ A runnable console app that:
 
 ---
 
-### 💡 Bonus Challenges
+### Bonus Challenges
 
 - Add `Maybe Book` for search results and handle `Nothing` gracefully.
 - Let the catalog persist between sessions using simple file I/O.
@@ -45,7 +45,7 @@ A runnable console app that:
 
 ---
 
-### 📦 Build Instructions
+### Build Instructions
 
 1. Run and test in **GHCi**
 2. Package with **Stack** or **Cabal**

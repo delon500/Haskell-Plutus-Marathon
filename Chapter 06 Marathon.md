@@ -1,4 +1,4 @@
-# 🔁 Recursive Budget Analyzer – Mini Console Project
+# Recursive Budget Analyzer – Mini Console Project
 
 You've just completed **Chapter 6**, where we unlocked the power of recursion and folds in Haskell:
 
@@ -14,7 +14,7 @@ This marathon task is to build a **Recursive Budget Analyzer** – a simple comm
 
 ---
 
-## ✅ Objectives
+## Objectives
 
 - **Define recursive functions** like:
   - `totalSpending`, `countItems`, `findMax`, `findMin`
@@ -37,7 +37,7 @@ This marathon task is to build a **Recursive Budget Analyzer** – a simple comm
 
 ---
 
-## 🧪 Deliverables
+## Deliverables
 
 Create a CLI program that:
 
@@ -51,7 +51,7 @@ Create a CLI program that:
 
 ---
 
-## 🚀 Bonus
+## Bonus
 
 - Visualize spending using ASCII bars
 - Tag highest and lowest expenses
@@ -59,7 +59,7 @@ Create a CLI program that:
 
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 - Test functions in **GHCi** interactively
 - Build with **Stack** or **Cabal**
