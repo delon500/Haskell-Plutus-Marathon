@@ -11,7 +11,7 @@ You have just finished **Chapter 1**, where we explored pillars of *introducto
 7. **Laziness** and infinite data structures
 8. Tooling with **GHC (GHCi)**, **Cabal**, and **Stack**
 
-Your mission is to design a small **command‑line app**—**Savings Simulator** that helps a user figure out how many months it will take to reach a savings goal (and preview their balance over time). It must demonstrate **every** concept above, remain beginner‑friendly, and live comfortably in a single `Main.hs` file (no heavy file management).
+Your mission is to design a small **command‑line app**—**Savings Simulator** that helps a user figure out how many months it will take to reach a savings goal (and preview their balance over time). It must demonstrate **every** concept above and live comfortably in a single `Main.hs` file (no heavy file management required).
 
 ---
 
