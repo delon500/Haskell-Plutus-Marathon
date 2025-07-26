@@ -1,4 +1,4 @@
-# Prime Playground – Mini Console Project
+# Savings Simulator – Mini Console Project
 
 You have just finished **Chapter 1**, where we explored pillars of *introductory Haskell*:
 
@@ -11,7 +11,7 @@ You have just finished **Chapter 1**, where we explored pillars of *introducto
 7. **Laziness** and infinite data structures
 8. Tooling with **GHC (GHCi)**, **Cabal**, and **Stack**
 
-Your task is to design a small **command‑line app**—**Prime Playground**—that lets users *explore prime numbers* (e.g., list the first *n* primes, check if an integer is prime) while demonstrating **every** concept above in a meaningful way.
+Your mission is to design a small **command‑line app**—**Savings Simulator** that helps a user figure out how many months it will take to reach a savings goal (and preview their balance over time). It must demonstrate **every** concept above, remain beginner‑friendly, and live comfortably in a single `Main.hs` file (no heavy file management).
 
 ---
 
@@ -19,12 +19,11 @@ Your task is to design a small **command‑line app**—**Prime Playground**�
 
 By completing this Marathon you will be able to:
 
-* Illustrate the difference between **pure** prime‑number logic and side‑effecting `IO`.
-* Chain calculations elegantly using **function composition**.
-* Respect Haskell’s **layout rule** with readable indentation and helpful comments.
-* Declare informative **type signatures** and leverage polymorphism where sensible.
-* Exploit **laziness** to create infinite streams of primes that are evaluated on demand.
-* Build, run, and debug your code in **GHCi**, plus package it with **Stack** or **Cabal**.
-* Make sure you have installed **GHC**, **Cabal**, and **Stack** on your system.
-* Use **GHCi** to test your functions interactively and explore their behavior.
-* Deliver a runnable console program and document its usage in a README file
+* Separate **pure** calculation logic (monthly balances, months to goal) from `IO` that reads user input.
+* Chain computations cleanly with **function composition** (`.`) instead of piling on parentheses.
+* Apply Haskell’s **layout rule**: consistent indentation, clear comments, no stray braces/semicolons.
+* Write precise **type signatures** (including a small polymorphic function where sensible).
+* Use **laziness** by generating an infinite list of running balances and only taking what you need (e.g. first 12 months).
+* Build, run, and test in **GHCi**, and optionally package with **Stack** or **Cabal**.
+* Ensure **GHC**, **Cabal**, and **Stack** are installed; practise running `ghci` to poke at your pure functions interactively.
+* Deliver a runnable console program and document its usage in a short README file.
